@@ -13,16 +13,19 @@ public class Lesson_3main_hometask1 {
         ListTovar.add(tovar2);
         ListTovar.add(tovar3);
 
-        int max = 0;
-
-        String search = 'высший';
-        Integer totalExportVolume = 0;
+        
+        String search = 'высший';  
         Set<String> setPrices = new HashSet<>();
+        
+        // Находим цену нужного товара и добавляем в сет
         for (int i=0; i <ListTovar.size(); i++) {
             if (ListTovar.get(1).getName().equals(search)) {
                 setPrices.add(ListTovar.get(i).getPrice());
             }
         }
+        
+        // Находим максимальную цену и выводим её 
+        int max = 0;
         for (int i = 0; i < setPrices.length; i++) {
             if (setPrices[i] > max) {
                 max = setPrices[i];
