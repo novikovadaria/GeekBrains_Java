@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 import module.Tovar;
 
-public class main_hometask1 {
+public class Lesson_3main_hometask1 {
     public static void main(String[] args) {
         Tovar tovar1 = new Tovar('средний', '2', 5);
         Tovar tovar2= new Tovar('высший', '2', 6);
