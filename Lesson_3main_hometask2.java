@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.ArrayList;
 import module.Tovar_complex;
 
-public class main_hometask2 {
+public class Lesson_3main_hometask2 {
     public static void main(String[] args) {
         Tovar tovar1 = new Tovar('средний', '2', 5, 'country1', 23);
         Tovar tovar2= new Tovar('высший', '2', 6, 'country2', 34);
