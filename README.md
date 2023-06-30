@@ -1,3 +1,31 @@
+# Tasks
+## Lesson 1. Introduction to the Java programming language
+Implement a function to raise the number a to the power of b. a, b ∈ Z. By reducing the number of actions performed to a minimum.
+
+Example 1: a = 3, b = 2, answer: 9
+
+The result should be saved in the file output.txt
+
+## Lesson 2. Why You Can't Not Use APIs
+Given a sequence of N integers. Find the number of positive numbers followed by a negative number.
+
+Given a sequence of integers ending with zero. Find the sum of positive numbers followed by a negative number.
+
+Given a sequence of N integers. Find the sum of prime numbers.
+
+OOP:
+
+Write a Converter interface for converting from degrees Celsius to Kelvin, Fahrenheit. The subclasses need to override the interface method for a valid conversion of values. Name the conversion method "convertValue".
+## Lesson 3. JAVA Collections: Introduction
+Given an array of records: product name, price, grade. Find the highest price of 1st or 2nd grade goods among goods whose name contains "highest".
+
+Product information consists of name, country of manufacture, weight, price, grade. Get the names of the products of the given grade with the lowest price.
+
+## Lesson 4. Data storage and processing part 1: priority collections
+Print the list in reverse order (without arrays)
+Example: 1 -> 2->3->4 Output: 4->3->2->1
+
+Determine if the list is alternating in sign? (without arrays)
 # Задания
 ## Урок 1. Знакомство с языком программирования Java
 Реализовать функцию возведения числа а в степень b. a, b ∈ Z. Сводя количество выполняемых действий к минимуму.
